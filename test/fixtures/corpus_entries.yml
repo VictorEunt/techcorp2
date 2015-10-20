@@ -1,0 +1,43 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  entry_number: MyString
+  genre: MyString
+  deliverable: MyString
+  classification: MyString
+  deadline: MyString
+  format: MyString
+  grade: MyString
+  instructor: MyString
+  student_level: MyString
+  student_major: MyString
+  student_gender: MyString
+  student_age: MyString
+  student_language: MyString
+  student_ethnicity: MyString
+  course_number: MyString
+  course_section: MyString
+  course_day: MyString
+  course_time: MyString
+  course_year: 1
+
+two:
+  entry_number: MyString
+  genre: MyString
+  deliverable: MyString
+  classification: MyString
+  deadline: MyString
+  format: MyString
+  grade: MyString
+  instructor: MyString
+  student_level: MyString
+  student_major: MyString
+  student_gender: MyString
+  student_age: MyString
+  student_language: MyString
+  student_ethnicity: MyString
+  course_number: MyString
+  course_section: MyString
+  course_day: MyString
+  course_time: MyString
+  course_year: 1

@@ -1,0 +1,93 @@
+<%= form_for(@corpus_entry) do |f| %>
+  <% if @corpus_entry.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@corpus_entry.errors.count, "error") %> prohibited this corpus_entry from being saved:</h2>
+
+      <ul>
+      <% @corpus_entry.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :entry_number %><br>
+    <%= f.text_field :entry_number %>
+  </div>
+  <div class="field">
+    <%= f.label :genre %><br>
+    <%= f.text_field :genre %>
+  </div>
+  <div class="field">
+    <%= f.label :deliverable %><br>
+    <%= f.text_field :deliverable %>
+  </div>
+  <div class="field">
+    <%= f.label :classification %><br>
+    <%= f.text_field :classification %>
+  </div>
+  <div class="field">
+    <%= f.label :deadline %><br>
+    <%= f.text_field :deadline %>
+  </div>
+  <div class="field">
+    <%= f.label :format %><br>
+    <%= f.text_field :format %>
+  </div>
+  <div class="field">
+    <%= f.label :grade %><br>
+    <%= f.text_field :grade %>
+  </div>
+  <div class="field">
+    <%= f.label :instructor %><br>
+    <%= f.text_field :instructor %>
+  </div>
+  <div class="field">
+    <%= f.label :student_level %><br>
+    <%= f.text_field :student_level %>
+  </div>
+  <div class="field">
+    <%= f.label :student_major %><br>
+    <%= f.text_field :student_major %>
+  </div>
+  <div class="field">
+    <%= f.label :student_gender %><br>
+    <%= f.text_field :student_gender %>
+  </div>
+  <div class="field">
+    <%= f.label :student_age %><br>
+    <%= f.text_field :student_age %>
+  </div>
+  <div class="field">
+    <%= f.label :student_language %><br>
+    <%= f.text_field :student_language %>
+  </div>
+  <div class="field">
+    <%= f.label :student_ethnicity %><br>
+    <%= f.text_field :student_ethnicity %>
+  </div>
+  <div class="field">
+    <%= f.label :course_number %><br>
+    <%= f.text_field :course_number %>
+  </div>
+  <div class="field">
+    <%= f.label :course_section %><br>
+    <%= f.text_field :course_section %>
+  </div>
+  <div class="field">
+    <%= f.label :course_day %><br>
+    <%= f.text_field :course_day %>
+  </div>
+  <div class="field">
+    <%= f.label :course_time %><br>
+    <%= f.text_field :course_time %>
+  </div>
+  <div class="field">
+    <%= f.label :course_year %><br>
+    <%= f.number_field :course_year %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

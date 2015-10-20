@@ -1,0 +1,62 @@
+<h1>Listing corpus_entries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Entry number</th>
+      <th>Genre</th>
+      <th>Deliverable</th>
+      <th>Classification</th>
+      <th>Deadline</th>
+      <th>Format</th>
+      <th>Grade</th>
+      <th>Instructor</th>
+      <th>Student level</th>
+      <th>Student major</th>
+      <th>Student gender</th>
+      <th>Student age</th>
+      <th>Student language</th>
+      <th>Student ethnicity</th>
+      <th>Course number</th>
+      <th>Course section</th>
+      <th>Course day</th>
+      <th>Course time</th>
+      <th>Course year</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @corpus_entries.each do |corpus_entry| %>
+      <tr>
+        <td><%= corpus_entry.entry_number %></td>
+        <td><%= corpus_entry.genre %></td>
+        <td><%= corpus_entry.deliverable %></td>
+        <td><%= corpus_entry.classification %></td>
+        <td><%= corpus_entry.deadline %></td>
+        <td><%= corpus_entry.format %></td>
+        <td><%= corpus_entry.grade %></td>
+        <td><%= corpus_entry.instructor %></td>
+        <td><%= corpus_entry.student_level %></td>
+        <td><%= corpus_entry.student_major %></td>
+        <td><%= corpus_entry.student_gender %></td>
+        <td><%= corpus_entry.student_age %></td>
+        <td><%= corpus_entry.student_language %></td>
+        <td><%= corpus_entry.student_ethnicity %></td>
+        <td><%= corpus_entry.course_number %></td>
+        <td><%= corpus_entry.course_section %></td>
+        <td><%= corpus_entry.course_day %></td>
+        <td><%= corpus_entry.course_time %></td>
+        <td><%= corpus_entry.course_year %></td>
+        <td><%= link_to 'Show', corpus_entry %></td>
+        <td><%= link_to 'Edit', edit_corpus_entry_path(corpus_entry) %></td>
+        <td><%= link_to 'Destroy', corpus_entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+<% if member_signed_in? %>
+  <%= link_to 'New Corpus entry', new_corpus_entry_path %>
+<% end %>
