@@ -49,7 +49,7 @@
         <td><%= corpus_entry.course_day %></td>
         <td><%= corpus_entry.course_time %></td>
         <td><%= corpus_entry.course_year %></td>
-        <td><%= image_tag @corpus_entry.document.url %></td>
+        <td><%= image_tag corpus_entry.document.url %></td>
         <td><%= link_to 'Show', corpus_entry %></td>
         <td><%= link_to 'Edit', edit_corpus_entry_path(corpus_entry) %></td>
         <td><%= link_to 'Destroy', corpus_entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
