@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151020011533) do
+ActiveRecord::Schema.define(version: 20151020044940) do
 
   create_table "corpus_entries", force: true do |t|
     t.string   "entry_number"
@@ -36,6 +36,10 @@ ActiveRecord::Schema.define(version: 20151020011533) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "member_id"
+    t.string   "document_file_name"
+    t.string   "document_content_type"
+    t.integer  "document_file_size"
+    t.datetime "document_updated_at"
   end
 
   add_index "corpus_entries", ["member_id"], name: "index_corpus_entries_on_member_id"

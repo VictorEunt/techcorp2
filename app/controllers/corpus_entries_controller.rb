@@ -46,7 +46,7 @@ class CorpusEntriesController < ApplicationController
     end
 
     def corpus_entry_params
-      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year)
+      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year, :document)
     end
     
 end

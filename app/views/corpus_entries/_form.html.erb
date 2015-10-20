@@ -1,4 +1,4 @@
-<%= form_for(@corpus_entry) do |f| %>
+<%= form_for @corpus_entry, html: { multipart: true } do |f| %>
   <% if @corpus_entry.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@corpus_entry.errors.count, "error") %> prohibited this corpus_entry from being saved:</h2>
@@ -11,83 +11,87 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :entry_number %><br>
-    <%= f.text_field :entry_number %>
+    <%= f.text_field :entry_number, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :genre %><br>
-    <%= f.text_field :genre %>
+    <%= f.text_field :genre, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :deliverable %><br>
-    <%= f.text_field :deliverable %>
+    <%= f.text_field :deliverable, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :classification %><br>
-    <%= f.text_field :classification %>
+    <%= f.text_field :classification, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :deadline %><br>
-    <%= f.text_field :deadline %>
+    <%= f.text_field :deadline, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :format %><br>
-    <%= f.text_field :format %>
+    <%= f.text_field :format, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :grade %><br>
-    <%= f.text_field :grade %>
+    <%= f.text_field :grade, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :instructor %><br>
-    <%= f.text_field :instructor %>
+    <%= f.text_field :instructor, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_level %><br>
-    <%= f.text_field :student_level %>
+    <%= f.text_field :student_level, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_major %><br>
-    <%= f.text_field :student_major %>
+    <%= f.text_field :student_major, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_gender %><br>
-    <%= f.text_field :student_gender %>
+    <%= f.text_field :student_gender, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_age %><br>
-    <%= f.text_field :student_age %>
+    <%= f.text_field :student_age, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_language %><br>
-    <%= f.text_field :student_language %>
+    <%= f.text_field :student_language, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :student_ethnicity %><br>
-    <%= f.text_field :student_ethnicity %>
+    <%= f.text_field :student_ethnicity, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :course_number %><br>
-    <%= f.text_field :course_number %>
+    <%= f.text_field :course_number, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :course_section %><br>
-    <%= f.text_field :course_section %>
+    <%= f.text_field :course_section, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :course_day %><br>
-    <%= f.text_field :course_day %>
+    <%= f.text_field :course_day, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :course_time %><br>
-    <%= f.text_field :course_time %>
+    <%= f.text_field :course_time, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :course_year %><br>
-    <%= f.number_field :course_year %>
+    <%= f.number_field :course_year, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :document %>
+    <%= f.file_field :document, class: "form-control" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-primary" %>
   </div>
 <% end %>
