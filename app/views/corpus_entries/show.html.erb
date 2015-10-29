@@ -1,5 +1,7 @@
-<%= image_tag @corpus_entry.document.url %>
-
+<p>
+    <strong>Document:</strong>
+  <%= link_to "Document",@corpus_entry.document.url %>
+</p>
 <p>
   <strong>Entry number:</strong>
   <%= @corpus_entry.entry_number %>
