@@ -10,88 +10,139 @@
       </ul>
     </div>
   <% end %>
+  
+    <div class="row"></div>
+    <h3>Student Information</h3></br>
 
-  <div class="form-group">
-    <%= f.label :entry_number %><br>
-    <%= f.text_field :entry_number, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :genre %><br>
-    <%= f.text_field :genre, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :deliverable %><br>
-    <%= f.text_field :deliverable, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :classification %><br>
-    <%= f.text_field :classification, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :deadline %><br>
-    <%= f.text_field :deadline, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :format %><br>
-    <%= f.text_field :format, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :grade %><br>
-    <%= f.text_field :grade, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :instructor %><br>
-    <%= f.text_field :instructor, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_level %><br>
-    <%= f.text_field :student_level, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_major %><br>
-    <%= f.text_field :student_major, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_gender %><br>
-    <%= f.text_field :student_gender, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_age %><br>
-    <%= f.text_field :student_age, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_language %><br>
-    <%= f.text_field :student_language, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :student_ethnicity %><br>
-    <%= f.text_field :student_ethnicity, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :course_number %><br>
-    <%= f.text_field :course_number, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :course_section %><br>
-    <%= f.text_field :course_section, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :course_day %><br>
-    <%= f.text_field :course_day, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :course_time %><br>
-    <%= f.text_field :course_time, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :course_year %><br>
-    <%= f.number_field :course_year, class: "form-control" %>
-  </div>
-  <div class="form-group">
-    <%= f.label :document %>
-    <%= f.file_field :document, class: "form-control" %>
-  </div>
-  <div class="actions">
-    <%= f.submit class: "btn btn-primary" %>
-  </div>
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :student_level, class: "sr-only" %> 
+      <h4>Level</h4>
+      <%= f.text_field :student_level, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :student_major, class: "sr-only" %> 
+      <h4>Major</h4>
+      <%= f.text_field :student_major, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :student_gender, class: "sr-only" %> 
+      <h4>Gender</h4>
+      <%= f.text_field :student_gender, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :student_age, class: "sr-only" %> 
+      <h4>Age</h4>
+      <%= f.text_field :student_age, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :student_language, class: "sr-only" %> 
+      <h4>Language</h4>
+      <%= f.text_field :student_language, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :student_ethnicity, class: "sr-only" %> 
+      <h4>Ethnicity</h4>
+      <%= f.text_field :student_ethnicity, class: "form-control input-lg" %>
+    </div>
+
+
+    <div class="row"></div>
+    <h3>Class Information</h3></br>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :instructor, class: "sr-only" %> 
+      <h4>Instructor</h4>
+      <%= f.text_field :instructor, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :course_number, class: "sr-only" %> 
+      <h4>Class Number</h4>
+      <%= f.text_field :course_number, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :course_section, class: "sr-only" %> 
+      <h4>Section</h4>
+      <%= f.text_field :course_section, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :course_day, class: "sr-only" %> 
+      <h4>Days of Week</h4>
+      <%= f.text_field :course_day, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :course_time, class: "sr-only" %> 
+      <h4>Time of Day</h4>
+      <%= f.text_field :course_time, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :course_year, class: "sr-only" %> 
+      <h4>Year</h4>
+      <%= f.number_field :course_year, class: "form-control input-lg" %>
+    </div>
+
+
+    <div class="row"></div>
+    <h3>Document Information</h3></br>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :entry_number, class: "sr-only" %>
+      <h4>Document ID</h4>
+      <%= f.text_field :entry_number, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :genre, class: "sr-only" %>
+      <h4>Genre</h4>
+      <%= f.text_field :genre, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :deliverable, class: "sr-only" %> 
+      <h4>Deliverable</h4>
+      <%= f.text_field :deliverable, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :classification, class: "sr-only" %> 
+      <h4>Classification</h4>
+      <%= f.text_field :classification, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :deadline, class: "sr-only" %> 
+      <h4>Deadline</h4>
+      <%= f.text_field :deadline, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :format, class: "sr-only" %> 
+      <h4>Format</h4>
+      <%= f.text_field :format, class: "form-control input-lg" %>
+    </div>
+
+    <div class="form-group form-group-lg col-md-5">
+      <%= f.label :grade, class: "sr-only" %> 
+      <h4>Grade</h4>
+      <%= f.text_field :grade, class: "form-control input-lg" %>
+    </div>
+    
+    <div class="form-group form-group-lg col-md-offset-1 col-md-5 col-md-offset-1">
+      <%= f.label :document, class: "sr-only" %>
+      <h4>File</h4>
+      <%= f.file_field :document, class: "form-control input-lg" %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit "Upload Document", class: "btn btn-primary" %>
+    </div>
 <% end %>

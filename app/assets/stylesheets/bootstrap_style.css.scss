@@ -1,1 +1,22 @@
-@import 'bootstrap'
+@import url(https://fonts.googleapis.com/css?family=Khula:800);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+
+
+$body-bg: #ecf0f1;
+$font_family-serif: 'Libre Baskerville', serif;
+$font-family-sans-serif: 'Khula', sans-serif;
+$font-family-base: $font-family-serif;
+$input-bg: #f9f9f9;
+$font-size-base: 16px;
+$text-color: #1B1B1B;
+$headings-font-family: 'Khula', sans-serif;
+$headings-font-weight: 800;
+$headings-color: #1B1B1B;
+$form-group-margin-bottom: 50px;
+$hr-border: #1B1B1B;
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
+
