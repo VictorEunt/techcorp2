@@ -3,20 +3,32 @@
 
 
 
-$body-bg: #ecf0f1;
+
+$navbar-height: 65px;
+$navbar-default-bg: #333333;
+$navbar-default-link-color: #dedede;
+$navbar-default-link-hover-color: #f1c40f;
+$navbar-default-brand-hover-color: #f9f9f9;
+$body-bg: #DEDEDE;
 $font_family-serif: 'Libre Baskerville', serif;
 $font-family-sans-serif: 'Khula', sans-serif;
 $font-family-base: $font-family-serif;
-$input-bg: #f9f9f9;
+$input-bg: #ecf0f1;
+$input-border-focus: #737373;
 $font-size-base: 16px;
-$text-color: #1B1B1B;
+$text-color: #333333;
 $headings-font-family: 'Khula', sans-serif;
 $headings-font-weight: 800;
-$headings-color: #1B1B1B;
+$headings-color: #4B4B4B;
 $form-group-margin-bottom: 50px;
-$hr-border: #1B1B1B;
+$hr-border: #4B4B4B;
+$btn-primary-bg: #333333;
+$btn-primary-color: #dedede;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
+.navbar-brand {
+  font-size: 170%;
+}

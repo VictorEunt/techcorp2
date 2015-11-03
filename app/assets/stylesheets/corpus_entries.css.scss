@@ -1,3 +1,30 @@
 // Place all the styles related to the CorpusEntries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#form_title{
+  margin-top: 10%;
+}
+
+#form_heading{
+  margin-top: 10%;
+  margin-left: 12px;
+  color: #4B4B4B;
+}
+
+#form_label{
+  color: #4B4B4B;
+}
+
+hr {
+  margin-bottom: -5%;
+  border-width: 3px;
+}
+
+.form-control {
+    border-color: none;
+    border-width: 2px;
+}
+
+#btn_margin {
+  margin-left: 30px;
+}
