@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   devise_for :members
   root "corpus_entries#index"
-  get "corpus" => "pages#corpus"
+  get "corpus" => "corpus_entries#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,0 +1,689 @@
+entry_number,genre,deliverable,classification,deadline,format,grade,instructor,student_level,student_major,student_gender,student_age,student_language,student_ethnicity,course_number,course_section,course_day,course_time,course_year
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,80,Peake,Freshman,Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,80,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,75,Peake,Freshman,Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,94,Peake,Sophomore,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Sophomore,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,87,Peake,Sophomore,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Brochure,Brochure(Group),technical,Draft,Doc file,85,Peake,Sophomore,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,93,Peake,Sophomore,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,Presentation,Presentation,academic,Final,Ppt file,XXX,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,Essay,Essay,academic,Final,Doc file,XXX,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,Presentation,Presentation,academic,Final,Ppt file,XXX,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Biochemistry,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Biochemistry,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,87,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Freshman,Biochemistry,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,88,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,93,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Business  ,,18,Spanish,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Business  ,,18,Spanish,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,80,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,85,Peake,Freshman,Business  ,,18,Spanish,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,94,Peake,Freshman,Computer Science,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Computer Science,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,92,Peake,Freshman,Computer Science,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,95,Peake,Freshman,Medical Technology,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Freshman,Medical Technology,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Peake,Freshman,Medical Technology,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,92,Peake,Freshman,Hospitality Management,,18,English/Vietnamese,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Hospitality Management,,18,English/Vietnamese,,2700,10,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,91,Peake,Freshman,Hospitality Management,,18,English/Vietnamese,,2700,10,MW,1:30-2:51pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,82,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:52pm,2011
+,Procedures,Manual,technical,Final,Doc file,92,Peake,Freshman,Hospitality Management,,18,English/Vietnamese,,2700,10,MW,1:30-2:53pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,94,Peake,Sophomore,Biology,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Sophomore,Biology,,19,English,,2700,10,MW,1:30-2:51pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,91,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:52pm,2011
+,Procedures,Manual,technical,Final,Doc file,88,Peake,Sophomore,Biology,,19,English,,2700,10,MW,1:30-2:51pm,2011
+,Presentation,Presentation,academic,Final,Ppt file,XXX,Peake,XXX,XXX,,XXX,XXX,,2700,10,MW,1:30-2:52pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,87,Peake,Freshman,Materials Science and Engineering,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Materials Science and Engineering,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,65,Peake,Freshman,Materials Science and Engineering,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Junior,Information Technology,,21,Korean,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Junior,Information Technology,,21,Korean,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Sophomore,Computer Science,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Sophomore,Computer Science,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,75,Peake,Sophomore,Computer Science,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Freshman,Mechanical and Energy Engineering,,18,French,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Mechanical and Energy Engineering,,18,French,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Peake,Freshman,Mechanical and Energy Engineering,,18,French,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Sophomore,Mechanical and Energy Engineering,,20,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,80,Peake,Junior,Information Technology,,21,Korean,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,70,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,82,Peake,Senior,Accounting,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Senior,Accounting,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Peake,Senior,Accounting,,21,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,80,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,88,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,10,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,60,Peake,Freshman,Biology and Music Composition,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Biology and Music Composition,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Composition,Musical composition,academic,Final,Mid file,XXX,Peake,Freshman,Biology and Music Composition,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Composition,Photography composition,academic,Final,Doc file,XXX,Peake,Freshman,Biology and Music Composition,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,91,Peake,Sophomore,Computer Science,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,85,Peake,Sophomore,Computer Science,,20,English,,2700,13,MW,3:00-4:21pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,87,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:21pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:21pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Sophomore,Computer Science,,20,English,,2700,13,MW,3:00-4:21pm,2011
+,Correspondence,Adjustment letter,technical,Final,Doc file,XXX,Peake,Sophomore,Computer Science,,20,English,,2700,13,MW,3:00-4:22pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,95,Peake,Freshman,Biology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Biology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,89,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,92,Peake,Freshman,Biology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,95,Peake,Freshman,Biology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,92,Peake,Freshman,Medical Technology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Medical Technology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,88,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,82,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,85,Peake,Freshman,Medical Technology,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Junior,BAAS,,27,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Junior,BAAS,,27,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,78,Peake,Junior,BAAS,,27,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,95,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,95,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Report,Recommendation report,technical,Final,Doc file,XXX,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Correspondence,Adjustment letter,technical,Final,Doc file,XXX,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Doc file,XXX,Peake,Freshman,Business,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,0,Peake,Freshman,Biology,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Biology,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,94,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,80,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,94,Peake,Freshman,Biology,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Peake,Freshman,Mechanical and Energy Engineering,,18,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,92,Peake,Freshman,Accounting,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Accounting,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,94,Peake,Freshman,Accounting,,19,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,92,Peake,Junior,Biology,,21,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Junior,Biology,,21,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,89,Peake,Junior,Biology,,21,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Sophomore,Information Technology,,19,Spanish,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Sophomore,Information Technology,,19,Spanish,,2700,13,MW,3:00-4:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,92,Peake,XXX,XXX,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,78,Peake,Sophomore,Information Technology,,19,Spanish,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,87,Peake,Senior,Mechanical and Energy Engineering,,58,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,90,Peake,Senior,Mechanical and Energy Engineering,,58,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Peake,Senior,Mechanical and Energy Engineering,,58,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Senior,Materials Science and Engineering,,27,Twi,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Senior,Materials Science and Engineering,,27,Twi,,2700,13,MW,3:00-4:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,82,Peake,Senior,Materials Science and Engineering,,27,Twi,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Senior,Materials Science and Engineering,,27,Twi,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Sophomore,Medical Technology,,20,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Sophomore,Medical Technology,,20,English,,2700,13,MW,3:00-4:21pm,2011
+,Procedures,Manual,technical,Final,Pdf file,70,Peake,Sophomore,Medical Technology,,20,English,,2700,13,MW,3:00-4:22pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,92,Peake,Freshman,Biology,,20,English,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Biology,,20,English,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Peake,Freshman,Biology,,20,English,,2700,13,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,93,O'Casey,Senior,English/Mathematics,,21,English,,2700,13,MW,5:30-9:30pm,2011
+,Job Materials,Resume,technical,Final,Doc file,95,O'Casey,Senior,English/Mathematics,,21,English,,2700,13,MW,5:30-9:30pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,XXX,Accounting,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,0,Peake,XXX,Accounting,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,75,Peake,XXX,Accounting,,XXX,XXX,,2700,13,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,94,O'Casey,Senior,English/Mathematics,,21,English,,2700,13,MW,5:30-9:30pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Freshman,Business,,18,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Business,,18,English,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,70,Peake,Freshman,Business,,18,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,92,Peake,Freshman,Business,,18,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,80,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,92,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Junior,Biology,,21,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Junior,Biology,,21,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,94,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,90,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,80,Peake,Junior,Biology,,21,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Computer Science,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Freshman,Computer Science,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,80,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,80,Peake,Freshman,Computer Science,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,95,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,97,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Freshman,Biochemistry,,17,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Freshman,Biochemistry,,17,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,92,Peake,Freshman,Biochemistry,,17,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Junior,Mechanical and Energy Engineering,,29,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,90,Peake,Junior,Mechanical and Energy Engineering,,29,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,75,Peake,Junior,Mechanical and Energy Engineering,,29,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Freshman,Mechanical and Energy Engineering,,18,Spanish,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Mechanical and Energy Engineering,,18,Spanish,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,89,Peake,Freshman,Mechanical and Energy Engineering,,18,Spanish,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,78,Peake,Freshman,Biochemistry,,19,Spanish,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,75,Peake,Freshman,Biochemistry,,20,Spanish,,2700,27,MW,12:00-1:21pm,2011
+,ePortfolio,ePortfolio(volunteer)),academic,Final,Blog entry,90,Peake,Freshman,Accounting,,19,English,,2700,10,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,80,Peake,Freshman,Biochemistry,,20,Spanish,,2700,27,MW,12:00-1:25pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,94,Peake,Junior,Accounting,,25,Vietnamese,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Junior,Accounting,,25,Vietnamese,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,89,Peake,Junior,Accounting,,25,Vietnamese,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,75,Peake,Freshman,Kinesiology,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,70,Peake,Freshman,Kinesiology,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,78,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Doc file,70,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,70,Peake,Freshman,Kinesiology,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Junior,Computer Engineering,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,85,Peake,Junior,Computer Engineering,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Junior,Computer Engineering,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,85,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Doc file,87,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,70,Peake,XXX,XXX,,XXX,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,90,Peake,Freshman,Undecided,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Freshman,Electrical Engineering,,28,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,90,Peake,Freshman,Electrical Engineering,,28,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,80,Peake,Freshman,Electrical Engineering,,28,English,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,88,Peake,Freshman,Mathematics,,19,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,90,Peake,Freshman,Mathematics,,20,English,,2700,27,MW,12:00-1:21pm,2011
+,Procedures,Manual,technical,Final,Doc file,78,Peake,Freshman,Mathematics,,20,English,,2700,27,MW,12:00-1:22pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,85,Peake,Freshman,Business,,19,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,80,Peake,Freshman,Business,,19,XXX,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Peake,Freshman,Business,,19,XXX,,2700,27,MW,12:00-1:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,50,Peake,Freshman,Pre Biology/Chemistry,,XXX,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Doc file,80,Peake,Freshman,Pre Biology/Chemistry,,XXX,English,,2700,27,MW,12:00-1:21pm,2011
+,Procedures,Manual,technical,Final,Pdf file,75,Peake,Freshman,Pre Biology/Chemistry,,XXX,English,,2700,27,MW,12:00-1:22pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,MW,Sophomore,Accounting,,20,English,,2700,37,1:30-2:50pm,XXX,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,90,Peake,Sophomore,Electrical Engineering,,27,English,,2700,27,MW,12:00-1:20pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,80,Peake,Sophomore,Electrical Engineering,,27,English,,2700,27,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Peake,Sophomore,Electrical Engineering,,27,English,,2700,27,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,91,Jackson,Sophomore,Accounting,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Sophomore,Accounting,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,87,Jackson,Sophomore,Accounting,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,XXX,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,84,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,Report,Progress report,academic,Final,Doc file,92,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Doc file,86,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Doc file,89,Jackson,Sophomore,Political Science,,21,Spanish,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,92,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,90,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,98,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,84,Jackson,Sophomore,Computer Science,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Mechanical and Energy Engineering,,21,English,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,XXX,Jackson,Sophomore,Mechanical and Energy Engineering,,21,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Sophomore,Mechanical and Energy Engineering,,21,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,86,Jackson,Sophomore,Mechanical and Energy Engineering,,21,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,Sophomore,Mechanical and Energy Engineering,,22,English,,2700,37,MW,1:30-2:51pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Senior,English Literature,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,XXX,Jackson,Senior,English Literature,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Senior,English Literature,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,90,Jackson,Senior,English Literature,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,95,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,88,Jackson,Senior,English Literature,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,XXX,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,92,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,96,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,0,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,XXX,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,97,Jackson,Freshman,Accounting,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,89,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,87,Jackson,Sophomore,Electrical Engineering,,20,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Electrical Engineering,,21,Arabic,,2700,37,MW,1:30-2:51pm,2011
+,Job Materials,Resume,technical,Final,Doc file,XXX,Jackson,Sophomore,Electrical Engineering,,21,Arabic,,2700,37,MW,1:30-2:52pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Sophomore,Electrical Engineering,,21,Arabic,,2700,37,MW,1:30-2:53pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Sophomore,Electrical Engineering,,21,Arabic,,2700,37,MW,1:30-2:54pm,2011
+,Report,Progress report,academic,Final,Pdf file,92,Jackson,Sophomore,Electrical Engineering,,21,Arabic,,2700,37,MW,1:30-2:55pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Math/Engineering,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Sophomore,Math/Engineering,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Sophomore,Math/Engineering,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,Correspondence, Bad-news memo,technical,Final,Pdf file,90,Jackson,Sophomore,Math/Engineering,,20,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Graduate,Construction Engineering,,39,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Doc file,XXX,Jackson,Graduate,Construction Engineering,,39,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Graduate,Construction Engineering,,39,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Graduate,Construction Engineering,,39,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,87,Jackson,Graduate,Construction Engineering,,39,Arabic,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Junior,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,XXX,Jackson,Junior,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Junior,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,96,Jackson,Junior,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,87,Jackson,Junior,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Freshman,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Freshman,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Freshman,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,87,Jackson,Freshman,Mechanical and Energy Engineering,,18,English,,2700,37,MW,1:30-2:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Junior,Computer Engineering,,24,English,,2700,37,MW,1:30-2:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Sophomore,Biology,,25,English,,2700,37,MW,1:30-2:51pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,XXX,Jackson,Sophomore,Biology,,25,English,,2700,37,MW,1:30-2:52pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,XXX,Jackson,Sophomore,Biology,,25,English,,2700,37,MW,1:30-2:53pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,XXX,XXX,,XXX,XXX,,2700,37,MW,1:30-2:54pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Electrical Engineering,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,84,Jackson,Sophomore,Electrical Engineering,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,94,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Sophomore,Electrical Engineering,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Report,Progress report,academic,Final,Doc file,92,Jackson,Sophomore,Electrical Engineering,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Computer Science,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,XXX,Jackson,Sophomore,Computer Science,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Sophomore,Computer Science,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,83,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,96,Jackson,Sophomore,Computer Science,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Sophomore,Computer Science,,19,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Junior,Kinesiology,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,XXX,Jackson,Junior,Kinesiology,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Jackson,Junior,Kinesiology,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,XXX,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,94,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Freshman,Computer Science,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Junior,Aviation Logistics,,28,English,,2700,21,MW,4:3-5:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,XXX,Jackson,Junior,Aviation Logistics,,28,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Junior,Aviation Logistics,,28,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,94,Jackson,Junior,Aviation Logistics,,28,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,98,Jackson,Junior,Aviation Logistics,,28,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Senior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:3-5:50pm,2011
+,Job Materials,Resume,technical,Final,Blog entry,XXX,Jackson,Senior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Senior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,XXX,Jackson,Senior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Senior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Junior,Accounting,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Doc file,87,Jackson,Junior,Accounting,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Doc file,92,Jackson,Junior,Accounting,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Doc file,87,Jackson,Junior,Accounting,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Report,Progress report,academic,Final,Doc file,92,Jackson,Junior,Accounting,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Emergency Administration and Planning,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Sophomore,Emergency Administration and Planning,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,Sophomore,Emergency Administration and Planning,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Sophomore,Emergency Administration and Planning,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,Sophomore,Emergency Administration and Planning,,20,English,,2700,21,MW,4:3-5:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Blog entry,XXX,Jackson,Sophomore,Social Work,,21,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Sophomore,Social Work,,21,English,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,98,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,81,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,98,Jackson,Sophomore,Social Work,,21,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,89,Jackson,Sophomore,Social Work,,21,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Freshman,Computer Science,,31,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Freshman,Computer Science,,31,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Freshman,Computer Science,,31,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,XXX,Jackson,Junior,Business,,26,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,XXX,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:51pm,2011
+,Case study,Design case study,academic,Final,Pdf file,XXX,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:3-5:52pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Junior,Business,,26,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,XXX,Jackson,Junior,Business,,26,XXX,,2700,21,MW,4:3-5:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,92,Jackson,Junior,Accounting,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,91,Jackson,Junior,Accounting,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Junior,Accounting,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Junior,Accounting,,24,English,,2700,21,MW,4:3-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,XXX,Criminal Justice,,22,English,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,97,Jackson,XXX,Criminal Justice,,22,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,95,Jackson,XXX,Criminal Justice,,22,English,,2700,8,MW,12:00-1:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,94,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,XXX,Criminal Justice,,22,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,91,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Sophomore,Information Technology,,24,Malayalam,,2700,8,MW,12:00-1:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,XXX,Jackson,Sophomore,Information Technology,,24,Malayalam,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,94,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Sophomore,Biology,,20,English,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Sophomore,Biology,,20,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Sophomore,Biology,,20,English,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Freshman,Chemistry,,19,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Jackson,Freshman,Chemistry,,19,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Chemistry,,19,English,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Freshman,Chemistry,,19,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Junior,Criminal Justice,,20,English,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Junior,Criminal Justice,,20,English,,2700,8,MW,12:00-1:21pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Criminal Justice,,20,English,,2700,8,MW,12:00-1:22pm,2011
+,XXX,XXX,XXX,XXX,XXX,XXX,Jackson,Sophomore,Criminal Justice,,19,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,89,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:21pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,86,Jackson,Sophomore,Criminal Justice,,19,English,,2700,8,MW,12:00-1:22pm,2011
+,Case study,Design case study,academic,Final,Pdf file,83,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:23pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,91,Jackson,Sophomore,Electrical Engineering,,20,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,89,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:25pm,2011
+,Case study,Design case study,academic,Final,Pdf file,89,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:26pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Sophomore,Electrical Engineering,,20,English,,2700,8,MW,12:00-1:27pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Sophomore,Electrical Engineering,,20,English,,2700,8,MW,12:00-1:28pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,95,Jackson,Sophomore,Electrical Engineering,,20,English,,2700,8,MW,12:00-1:29pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,XXX,Jackson,Junior,Biology,,21,Swahili,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,88,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Junior,Biology,,21,Swahili,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,95,Jackson,Senior,Criminal Justice,,25,English,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Senior,Criminal Justice,,25,English,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,88,Jackson,Senior,Criminal Justice,,25,English,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,87,Jackson,Junior,Business,,29,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Business,,29,English,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Junior,Business,,29,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Junior,Business,,29,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,XXX,XXX,,XXX,XXX,,2700,8,MW,12:00-1:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Junior,Biology,,21,English,,2700,8,MW,12:00-1:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,91,Jackson,Junior,Biology,,21,English,,2700,8,MW,12:00-1:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Junior,Biology,,21,English,,2700,8,MW,12:00-1:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,91,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,81,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Sophomore,XXX,,21,Arabic,,2700,21,MW,4:30-5:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Sophomore,XXX,,21,Arabic,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,84,Jackson,Sophomore,XXX,,21,Arabic,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Sophomore,XXX,,22,Arabic,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,86,Jackson,Freshman,Computer Engineering,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Jackson,Freshman,Computer Engineering,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,83,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Freshman,Computer Engineering,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Sophomore,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,91,Jackson,Sophomore,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,91,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Sophomore,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,86,Jackson,Freshman,Biology,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Freshman,Biology,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,86,Jackson,Freshman,Biology,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,87,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Sophomore,Mechanical and Energy Engineering,,18,Spanish,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Sophomore,Mechanical and Energy Engineering,,18,Spanish,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,80,Jackson,Sophomore,Mechanical and Energy Engineering,,18,Spanish,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Sophomore,Computer Science,,20,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,91,Jackson,Sophomore,Computer Science,,20,English,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Sophomore,Computer Science,,20,English,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Sophomore,Computer Science,,20,English,,2700,21,MW,4:30-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,86,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Freshman,Biology,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,91,Jackson,Freshman,Biology,,19,English,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Freshman,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:51pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Freshman,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Freshman,Biology,,18,English,,2700,21,MW,4:30-5:50pm,2011
+,Case study,Design case study,academic,Final,Pdf file,81,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Junior,Computer Science,,23,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,94,Jackson,Junior,Computer Science,,23,English,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:51pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,91,Jackson,XXX,XXX,,XXX,XXX,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Junior,Electrical Engineering,,21,Bengali,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Junior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:30-5:51pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Electrical Engineering,,22,Bengali,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Junior,Electrical Engineering,,23,Bengali,,2700,21,MW,4:30-5:50pm,2011
+,XXX,XXX,XXX,XXX,XXX,XXX,Jackson,Junior,Creative Writing,,23,English,,2700,21,MW,4:30-5:50pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Junior,Creative Writing,,24,English,,2700,21,MW,4:30-5:50pm,2011
+,XXX,XXX,XXX,XXX,XXX,XXX,Jackson,Junior,Creative Writing,,25,English,,2700,21,MW,4:30-5:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,88,Jackson,Junior,Creative Writing,,25,English,,2700,21,MW,4:30-5:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Creative Writing,,26,English,,2700,21,MW,4:30-5:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Junior,Creative Writing,,27,English,,2700,21,MW,4:30-5:51pm,2011
+,XXX,XXX,XXX,XXX,XXX,XXX,Jackson,Freshman,Materials Science and Engineering,,18,English,,2700,21,MW,4:30-5:52pm,2011
+,Procedures,Manual,technical,Final,Pdf file,90,Jackson,Freshman,Materials Science and Engineering,,18,English,,2700,21,MW,4:30-5:53pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Freshman,Materials Science and Engineering,,18,English,,2700,21,MW,4:30-5:54pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Materials Science and Engineering,,18,English,,2700,21,MW,4:30-5:55pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,88,Jackson,Freshman,Materials Science and Engineering,,18,English,,2700,21,MW,4:30-5:56pm,2011
+,Case study,Design case study,academic,Final,Pdf file,86,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,93,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,92,Jackson,Sophomore,Emergency Management,,21,Arabic,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Sophomore,Emergency Management,,21,Arabic,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,84,Jackson,Sophomore,Emergency Management,,22,Arabic,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,85,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,XXX,Jackson,Freshman,Biology Pre-Med,,19,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,XXX,Jackson,Freshman,Biology Pre-Med,,19,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Freshman,Accounting,,19,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,81,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,96,Jackson,Freshman,Accounting,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Accounting,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Freshman,Accounting,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,94,Jackson,Freshman,Psychology,,19,Spanish,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Psychology,,19,Spanish,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,86,Jackson,Freshman,Psychology,,19,Spanish,,2700,25,MW,3:00-4:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,80,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,90,Jackson,Freshman,Psychology,,19,Spanish,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,90,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,82,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,90,Jackson,Junior,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Junior,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,91,Jackson,Junior,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,98,Jackson,Junior,Health Promotion,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Health Promotion,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,87,Jackson,Junior,Health Promotion,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Freshman,Construction Management and Engineering Technology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,80,Jackson,Freshman,Construction Management and Engineering Technology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Construction Management and Engineering Technology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Freshman,Construction Management and Engineering Technology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Freshman,Biology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,96,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Case study,Design case study,academic,Final,Pdf file,86,Jackson,XXX,XXX,,XXX,XXX,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,89,Jackson,Freshman,Biology,,18,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Junior,Health Promotion,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,92,Jackson,Senior,Psychology,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,96,Jackson,Senior,Psychology,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Senior,Psychology,,22,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Senior,Psychology,,23,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,91,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,72,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report,Progress report,academic,Final,Pdf file,95,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,92,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Report, Bad-news memo,academic,Final,Pdf file,96,Jackson,Sophomore,English,,19,English,,2700,25,MW,3:00-4:20pm,2011
+,Procedures,Manual,technical,Final,Pdf file,96,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,96,Jackson,Freshman,Accounting,,21,English,,2700,25,MW,3:00-4:20pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Emergency Administration and Planning,,20,Arabic,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Emergency Administration and Planning,,20,Arabic,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Emergency Administration and Planning,,20,Arabic,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Emergency Administration and Planning,,20,Arabic,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Emergency Administration and Planning,,20,Arabic,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,18,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Computer Science,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Computer Science,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,23,English,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Computer Science/Mathematics,,18,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Computer Science/Mathematics,,18,English,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,18,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Computer Science,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Computer Science,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Computer Science,,23,English,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Senior,English/Creative Writing,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Senior,English/Creative Writing,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Senior,English/Creative Writing,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Senior,English/Creative Writing,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Senior,English/Creative Writing,,21,English,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Dance and Pre-Physical Therapy,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Dance and Pre-Physical Therapy,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Criminal Justice,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Criminal Justice,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Accounting,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Accounting,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Accounting,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Accounting,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Accounting,,20,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Pre-Dentistry/Biology,,18,Nepali,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Pre-Dentistry/Biology,,18,Nepali,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Pre-Dentistry/Biology,,18,Nepali,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Pre-Dentistry/Biology,,18,Nepali,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Pre-Dentistry/Biology,,18,Nepali,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Nursing,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Nursing,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Nursing,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Nursing,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Nursing,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Chemistry,,19,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Chemistry,,19,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Chemistry,,19,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Chemistry,,19,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Chemistry,,19,Spanish,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Computer Engineering,,29,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Computer Engineering,,29,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Computer Engineering,,29,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Computer Engineering,,29,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Computer Engineering,,29,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Mechanical and Energy Engineering,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Mechanical and Energy Engineering,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Mechanical and Energy Engineering,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Mechanical and Energy Engineering,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Mechanical and Energy Engineering,,20,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Mechanical and Energy Engineering,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Mechanical and Energy Engineering,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Mechanical and Energy Engineering,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Mechanical and Energy Engineering,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Mechanical and Energy Engineering,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Senior,Accounting,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Senior,Accounting,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Senior,Accounting,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Senior,Accounting,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Senior,Accounting,,22,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,9,TR,3:30-4:50pm,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,9,TR,3:30-4:50pm,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Criminal Justice,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Criminal Justice,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Criminal Justice,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Criminal Justice,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Criminal Justice,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,XXX,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,XXX,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,XXX,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,XXX,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,XXX,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,24,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Criminal Justice,,24,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Criminal Justice,,24,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,24,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Criminal Justice,,24,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Computer Engineering,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Computer Engineering,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Computer Engineering,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Computer Engineering,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Emergency Management,,50,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Emergency Management,,50,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Emergency Management,,50,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Emergency Management,,50,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Emergency Management,,50,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,Spanish,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,Spanish,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,Spanish,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,Spanish,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Senior,Biochemistry,,25,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Senior,Biochemistry,,25,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Senior,Biochemistry,,25,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Senior,Biochemistry,,25,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Senior,Biochemistry,,25,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Sophomore,Constructional Engineering,,18,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Feasibility report(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Sophomore,Constructional Engineering,,18,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Sophomore,Constructional Engineering,,18,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Sophomore,Constructional Engineering,,18,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Sophomore,Constructional Engineering,,18,English,,2700,16,TR,9:30-10:50am,2011
+,Brochure,Brochure(Group),technical,Final,Pdf file,,Huggett,XXX,XXX,,XXX,XXX,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Mathematics,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Mathematics,,20,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Mathematics,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Junior,Mathematics,,22,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Mathematics,,23,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Draft,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Accounting,,19,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biochemistry,,19,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biology,,19,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Freshman,Biology,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Freshman,Biology,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Freshman,Biology,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Report,Progress report,academic,Final,Pdf file,,Huggett,Freshman,Biology,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Freshman,Biology,,21,English,,2700,16,TR,9:30-10:50am,2011
+,ePortfolio,ePortfolio(home),academic,Final,Pdf file,,Huggett,Junior,Accounting,,21,English,,2700,16,TR,9:30-10:50am,2011
+,Procedures,Manual,technical,Final,Pdf file,,Huggett,Junior,Accounting,,22,English,,2700,16,TR,9:30-10:50am,2011
+,Job Materials,Resume,technical,Final,Pdf file,,Huggett,Junior,Accounting,,23,English,,2700,16,TR,9:30-10:50am,2011
+,Proposal,Proposal (assignment),academic,Final,Pdf file,,Huggett,Junior,Accounting,,24,English,,2700,16,TR,9:30-10:50am,2011
