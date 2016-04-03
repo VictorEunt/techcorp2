@@ -2,8 +2,12 @@ Rails.application.routes.draw do
   resources :corpus_entries
 
   devise_for :members
-  root "corpus_entries#index"
+  root "pages#about"
+  get "corpus-explorer" => "pages#corpus-explorer"
+  get "share" => "pages#share"
+  get "people" => "pages#people"
   get "corpus" => "corpus_entries#index"
+  get "tei" => "pages#tei"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,34 +1,109 @@
 @import url(https://fonts.googleapis.com/css?family=Khula:800);
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900);
 
-
-
-
-$navbar-height: 65px;
-$navbar-default-bg: #333333;
-$navbar-default-link-color: #dedede;
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$navbar-height: 50px;
+$navbar-default-bg: #fff;
+$navbar-default-link-color: #2980b9;
 $navbar-default-link-hover-color: #f1c40f;
-$navbar-default-brand-hover-color: #f9f9f9;
-$body-bg: #DEDEDE;
-$font_family-serif: 'Libre Baskerville', serif;
-$font-family-sans-serif: 'Khula', sans-serif;
-$font-family-base: $font-family-serif;
+$navbar-default-brand-color: #34495e;
+$navbar-default-brand-hover-color: #7f8c8d;
+$navbar-default-toggle-border-color: #fff;
+$navbar-default-toggle-hover-bg: #fff;
+$body-bg: #ecf0f1;
 $input-bg: #ecf0f1;
 $input-border-focus: #737373;
 $font-size-base: 16px;
 $text-color: #333333;
 $headings-font-family: 'Khula', sans-serif;
 $headings-font-weight: 800;
-$headings-color: #4B4B4B;
+$headings-color: #2980b9;
 $form-group-margin-bottom: 50px;
 $hr-border: #4B4B4B;
-$btn-primary-bg: #333333;
-$btn-primary-color: #dedede;
+$btn-primary-bg: #2980b9;
+$btn-primary-color: #ecf0f1;
+$btn-primary-border: #2980b9;
+$btn-info-color: #ecf0f1;
+$btn-info-bg: #e67e22;
+$btn-info-border: #e67e22;
+$btn-default-bg: #f9f9f9;
+$btn-default-color: #262626;
+$btn-default-border: #f9f9f9;
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
-.navbar-brand {
-  font-size: 170%;
+body { 
+  padding-top: 50px;
 }
+.navbar-toggle {
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 6px 0 0 2%;
+  float: left;
+}
+.navbar-toggle:hover {
+  opacity: .4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #34495e;
+  height: 4px;
+  margin-bottom: 5px;
+}
+.navbar {
+}
+.navbar-brand {
+	display: block;
+	position: absolute;
+  font-family: 'Khula', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+	left: 50%;
+	width: auto;
+	height: 100%;
+	margin-left: -68px !important;  /* 44px 50% of your logo width */
+	margin-top: 5px;
+}
+.navbar-brand:hover {
+	opacity: .6;
+}
+
+.navbar-collapse {
+  width: 100%;
+  text-align: center;
+}
+.navbar-nav {
+  font-family: 'Khula', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+    .navbar-brand {
+	 left: 10%;
+  }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  
+  
+  
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+

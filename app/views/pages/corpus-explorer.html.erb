@@ -1,0 +1,53 @@
+<div class="container-fluid">
+  <div id="about_jumbotron" class="jumbotron">
+    <h1 id="about_heading">The Corpus Explorer</h1>
+    <p id="about_text">A university corpus of student documents from the technical communication field.</p>
+  </div>
+  <p><%= CorpusEntry.count =%></p>
+  
+  <%= form_tag(corpus_entries_path, :method => "get", id: "search-form") do %>
+  <%= text_field_tag :search, params[:search], placeholder: "Search Corpus" %>
+  <%= submit_tag "Search" %>
+  <% end %>
+  <% if @corpus_entries.present? %>
+  <%= link_to corpus_explorer_path %>
+  <% end %>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Entry number</th>
+        <th>Genre</th>
+        <th>Deliverable</th>
+        <th>Classification</th>
+       <!-- <th>Deadline</th>
+        <th>Format</th>
+        <th>Grade</th>
+        <th>Instructor</th>
+        <th>Student level</th>
+        <th>Student major</th>
+        <th>Student gender</th>
+        <th>Student age</th>
+        <th>Student language</th>
+        <th>Student ethnicity</th>
+        <th>Course number</th>
+        <th>Course section</th>
+        <th>Course day</th>
+        <th>Course time</th>
+        <th>Course year</th> -->
+        <th>Document</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+   <tbody class="table-striped">
+     <% CorpusEntry.find_each do |corpus_entry| %>
+        <tr>
+          <td><%= corpus_entry.entry_number %></td>
+          <td><%= corpus_entry.genre %></td>
+          <td><%= corpus_entry.deliverable %></td>
+          <td><%= corpus_entry.classification %></td>
+          <td><%= link_to "Document", corpus_entry.document.url %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
