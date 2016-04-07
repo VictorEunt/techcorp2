@@ -14,17 +14,10 @@ gem 'devise'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
 gem 'http'
+gem 'puma'
 
-
-
-group :development, :test do
-  gem 'sqlite3'
-end
-
-group :production do
-  gem 'pg'
-  gem 'rails_12factor'
-end
+gem 'pg'
+gem 'rails_12factor'
 
 
 # bundle exec rake doc:rails generates the API under doc/api.

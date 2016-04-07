@@ -1,4 +1,3 @@
-<div class="container-fluid">
   <div id="about_jumbotron" class="jumbotron">
     <h1 id="about_heading">The Corpus Explorer</h1>
     <p id="about_text">A university corpus of student documents from the technical communication field.</p>
@@ -12,14 +11,12 @@
   <% if @corpus_entries.present? %>
   <%= link_to corpus_explorer_path %>
   <% end %>
-  <table class="table">
-    <thead>
-      <tr>
-        <th>Entry number</th>
+
+         <!-- <th>Entry number</th>
         <th>Genre</th>
         <th>Deliverable</th>
         <th>Classification</th>
-       <!-- <th>Deadline</th>
+      <th>Deadline</th>
         <th>Format</th>
         <th>Grade</th>
         <th>Instructor</th>
@@ -33,21 +30,40 @@
         <th>Course section</th>
         <th>Course day</th>
         <th>Course time</th>
-        <th>Course year</th> -->
-        <th>Document</th>
-        <th colspan="3"></th>
-      </tr>
-    </thead>
-   <tbody class="table-striped">
-     <% CorpusEntry.find_each do |corpus_entry| %>
-        <tr>
-          <td><%= corpus_entry.entry_number %></td>
-          <td><%= corpus_entry.genre %></td>
-          <td><%= corpus_entry.deliverable %></td>
-          <td><%= corpus_entry.classification %></td>
-          <td><%= link_to "Document", corpus_entry.document.url %></td>
-        </tr>
+        <th>Course year</th> 
+        <th>Document</th>-->
+  <div class="row">
+    <% CorpusEntry.find_each do |corpus_entry| %>
+          <div class="panel">
+           <div class="row">
+            <div class="col-xs-12">
+              <h4><%= corpus_entry.entry_number %>
+              <%= corpus_entry.genre %>
+              <%= corpus_entry.format %></h4>
+            </div>
+          <div class="row">
+            <div class="col-xs-6">
+              <h5><%= corpus_entry.deliverable %></h5>
+              <p><%= corpus_entry.classification %></p>
+              <p><%= corpus_entry.deadline %> deadline</p>
+              <p>Grade <%= corpus_entry.grade %></p>
+            </div>
+            <div class="col-xs-6">
+              <h5><%= corpus_entry.student_level %> student</h5>
+              <p>Major <%= corpus_entry.student_major %> deadline</p>
+              <p>Age <%= corpus_entry.student_age %></p>
+              <p>Gender <%= corpus_entry.student_gender %></p>
+              <p>Ethnicity <%= corpus_entry.student_ethnicity %></p>
+            </div>
+            <div class="col-xs-12">
+              <h5>Course</h5>
+              <p><%= corpus_entry.instructor %></p>
+              <p> <%= corpus_entry.course_number %> <%= corpus_entry.course_section %></p>
+              <p><%= corpus_entry.course_day %> <%= corpus_entry.course_time %> <%= corpus_entry.course_year %></p>           
+          </div> 
+        </div>
+        </div>
       <% end %>
-    </tbody>
-  </table>
-</div>
+  </div>
+
+                   

@@ -88,8 +88,17 @@ body {
   .navbar-toggle {
     display: none;
   }
-    .navbar-brand {
-	 left: 10%;
+  .navbar-brand {
+    display: block;
+    position: absolute;
+    font-family: 'Khula', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    left: 10%;
+    width: auto;
+    height: 100%;
+    margin-left: -68px !important;  /* 44px 50% of your logo width */
+    margin-top: 5px;
   }
 }
 
