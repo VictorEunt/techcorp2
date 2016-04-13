@@ -100,14 +100,19 @@ body {
     margin-left: -68px !important;  /* 44px 50% of your logo width */
     margin-top: 5px;
   }
+ ul.navbar-right {
+    margin-top: 4px;
+    padding-right: 25px;
+  }
+  li.navbar-link {
+    width: 110px;
+  }
 }
 
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  
-  
-  
+
 }
 
 

@@ -3,17 +3,17 @@ class CorpusEntriesController < ApplicationController
   before_action :authenticate_member!, except: [:index, :show]
   
   respond_to :html
-  
   def index
-    @corpus_entries = CorpusEntry.all
-    if params[:search]
-      @corpus_entries = CorpusEntry.search(params[:search]).order("created_at DESC")
-    else
-      @corpus_entries = CorpusEntry.all.order('created_at DESC')
-    end
+    @corpus_entries = CorpusEntry.all.page(params[:page])
+      if params[:search]
+        @corpus_entries = CorpusEntry.page(params[:page]).search(params[:search])
+      else
+        @corpus_entries = CorpusEntry.all
+      end
   end
 
   def show
+    @corpus_entries = CorpusEntry.paginate(:page => params[:page], :per_page => 15).order('genre DESC')
   end
 
   def new

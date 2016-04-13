@@ -1,79 +1,54 @@
-<div class="container-fluid">
-<div class="row">  
-  <div class="col-md-4 col-md-offset-1">
-<%= form_tag(corpus_entries_path, :method => "get", id: "search-form") do %>
+<div class="container-fluid">  
+  <div id="about_jumbotron" class="jumbotron">
+    <h1 id="about_heading">The Corpus Explorer</h1>
+    <p id="about_text">A university corpus of student documents from the technical communication field.</p>
+  </div>
+  <p><%= CorpusEntry.count =%></p>
+  
+  <%= form_tag(corpus_entries_path, :method => "get", id: "search-form") do %>
   <%= text_field_tag :search, params[:search], placeholder: "Search Corpus" %>
   <%= submit_tag "Search" %>
   <% end %>
   <% if @corpus_entries.present? %>
+  <% @corpus_entries = @corpus_entries.paginate(:page => params[:page], :per_page => 15).order('deliverable ASC') %>
   <% else %>
-    <p>There are no posts containing the term(s) <%= params[:search] %>.</p>
+  <p>There are no entries containing the term(s) <%= params[:search] %>.</p>
   <% end %>
+  
+  <div class="row">
+    <% @corpus_entries.paginate(:page => params[:page], :per_page => 15).find_each do |corpus_entry| %>
+          <div class="panel">
+           <div class="row">
+            <div class="col-xs-12 col-lg-12">
+              <h4><%= corpus_entry.entry_number %>
+              <%= corpus_entry.genre %>
+              <%= corpus_entry.format %></h4>
+            </div>
+           </div>
+           <div class="row">
+            <div class="col-xs-6 col-lg-4">
+              <h5><%= corpus_entry.deliverable %></h5>
+              <p><%= corpus_entry.classification %></p>
+              <p><%= corpus_entry.deadline %> deadline</p>
+              <p>Grade <%= corpus_entry.grade %></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h5><%= corpus_entry.student_level %> student</h5>
+              <p>Major <%= corpus_entry.student_major %></p>
+              <p>Age <%= corpus_entry.student_age %></p>
+              <p>Gender <%= corpus_entry.student_gender %></p>
+              <p>Ethnicity <%= corpus_entry.student_ethnicity %></p>
+            </div>
+            <div class="col-xs-12 col-lg-4">
+              <h5>Course <%= corpus_entry.course_number %> Section <%= corpus_entry.course_section %></h5>
+              <p>Instructor <%= corpus_entry.instructor %></p>
+              <p><%= corpus_entry.course_day %> <%= corpus_entry.course_time %>, <%= corpus_entry.course_year %></p>           
+            </div> 
+           </div>
+          </div>
+      <% end %>
   </div>
+  <%= will_paginate @corpus_entries %>
 </div>
-<h1>Your Search Results</h1>
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Entry number</th>
-      <th>Genre</th>
-      <th>Deliverable</th>
-      <th>Classification</th>
-     <!-- <th>Deadline</th>
-      <th>Format</th>
-      <th>Grade</th>
-      <th>Instructor</th>
-      <th>Student level</th>
-      <th>Student major</th>
-      <th>Student gender</th>
-      <th>Student age</th>
-      <th>Student language</th>
-      <th>Student ethnicity</th>
-      <th>Course number</th>
-      <th>Course section</th>
-      <th>Course day</th>
-      <th>Course time</th>
-      <th>Course year</th> -->
-      <th>Document</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody class="table-striped">
-    <% @corpus_entries.each do |corpus_entry| %>
-      <tr>
-        <td><%= corpus_entry.entry_number %></td>
-        <td><%= corpus_entry.genre %></td>
-        <td><%= corpus_entry.deliverable %></td>
-        <td><%= corpus_entry.classification %></td>
-        <!--
-        <td><%= corpus_entry.deadline %></td>
-        <td><%= corpus_entry.format %></td>
-        <td><%= corpus_entry.grade %></td>
-        <td><%= corpus_entry.instructor %></td>
-        <td><%= corpus_entry.student_level %></td>
-        <td><%= corpus_entry.student_major %></td>
-        <td><%= corpus_entry.student_gender %></td>
-        <td><%= corpus_entry.student_age %></td>
-        <td><%= corpus_entry.student_language %></td>
-        <td><%= corpus_entry.student_ethnicity %></td>
-        <td><%= corpus_entry.course_number %></td>
-        <td><%= corpus_entry.course_section %></td>
-        <td><%= corpus_entry.course_day %></td>
-        <td><%= corpus_entry.course_time %></td>
-        <td><%= corpus_entry.course_year %></td> -->
-        <td><%= link_to "Document", corpus_entry.document.url %></td>
-        <td><%= link_to 'Show', corpus_entry %></td>
-        <td><%= link_to 'Edit', edit_corpus_entry_path(corpus_entry) %></td>
-        <!--<td><%= link_to 'Destroy', corpus_entry, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-<% if member_signed_in? %>
-  <%= link_to 'New Corpus entry', new_corpus_entry_path %>
-<% end %>
-</div>
+                   

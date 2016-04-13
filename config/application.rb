@@ -21,3 +21,4 @@ module Techcorp2
     # config.i18n.default_locale = :de
   end
 end
+
