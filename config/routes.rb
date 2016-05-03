@@ -3,10 +3,10 @@ Rails.application.routes.draw do
 
   devise_for :members
   root "pages#about"
-  get "corpus-explorer" => "pages#corpus-explorer"
+  get "corpus-explorer" => "corpus_entries#index"
   get "share" => "pages#share"
   get "people" => "pages#people"
-  get "corpus" => "corpus_entries#index"
+  get "corpus" => "pages#corpus-explorer"
   get "tei" => "pages#tei"
 
   # The priority is based upon order of creation: first created -> highest priority.
