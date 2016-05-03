@@ -102,6 +102,10 @@ GEM
       mime-types
       mimemagic (= 0.3.0)
     pg (0.18.2-x86-mingw32)
+    pg_search (1.0.5)
+      activerecord (>= 3.1)
+      activesupport (>= 3.1)
+      arel
     puma (3.2.0)
     rack (1.5.5)
     rack-test (0.6.3)
@@ -182,6 +186,7 @@ DEPENDENCIES
   jquery-turbolinks
   paperclip (~> 4.2)
   pg
+  pg_search
   puma
   rails (= 4.1.8)
   rails_12factor

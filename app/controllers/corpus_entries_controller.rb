@@ -5,12 +5,13 @@ class CorpusEntriesController < ApplicationController
   respond_to :html
   def index
     @corpus_entries = CorpusEntry.all.page(params[:page])
-      if params[:search]
-        @corpus_entries = CorpusEntry.page(params[:page]).search(params[:search])
+    if params[:query]
+      @corpus_entries = CorpusEntry.search_by_whole_corpus(params[:query]).page(params[:page])
       else
-        @corpus_entries = CorpusEntry.all
+      respond_with corpus_entries_path, notice: 'No results.'
       end
   end
+  
 
   def show
     @corpus_entries = CorpusEntry.paginate(:page => params[:page], :per_page => 15).order('genre DESC')
@@ -51,7 +52,7 @@ class CorpusEntriesController < ApplicationController
     end
 
     def corpus_entry_params
-      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year, :document)
+      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year, :document, :search_by_whole_corpus)
     end
     
 end

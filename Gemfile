@@ -16,6 +16,7 @@ gem 'aws-sdk', '< 2.0'
 gem 'http'
 gem 'puma'
 gem 'will_paginate', '~> 3.0.6'
+gem 'pg_search'
 
 
 gem 'pg'
