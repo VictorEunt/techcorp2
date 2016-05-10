@@ -1,24 +1,17 @@
 // Place all the styles related to the CorpusEntries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#form_title{
-  margin-top: 10%;
+
+
+#form_heading_document {
+  margin-left: 12px;
 }
 
-#form_heading{
-  margin-top: 10%;
-  margin-left: 12px;
-  color: #4B4B4B;
-}
 
 #form_label{
   color: #4B4B4B;
 }
 
-hr {
-  margin-bottom: -5%;
-  border-width: 3px;
-}
 
 .form-control {
     border-color: none;
@@ -28,27 +21,59 @@ hr {
 #btn_margin {
   margin-left: 30px;
 }
-
-#entry_number {
-
+#entry_heading ul li {
+  display: inline;
+  list-style-type: none;
 }
+#entry_heading {
+  list-style-type: none;
+  font-size: 20px;
+}
+.entry_row_heading {
+  border-bottom: solid #6b8cae 1px;
+  padding-top: 1%;
+  margin: -5px 0px 5px 0px;
+}
+
 #entry_genre {
-  padding-left: 40%;
-  color: #f9f9f9;
-  h4 {
-  color: #f9f9f9;
-  }
+  margin-left: -5%;
+  color: #2980b9;
 }
 #entry_format {
   float: right;
-  h5 {
-  color: #bdc3c7;
-  }
+  color: #333333;
 }
-.deliverable_group {
-  margin-left: 15px;
+#explore_jumbotron {
+  background-image: url("class_mobile.png");
+  background-size: cover;
+  margin: none;
+} 
+#explore_heading {
+  color: #ecf0f1;
 }
-.entry_row_heading {
-  background: #6b8cae;
-  margin: 0 0px 25px 0px;
+#explore_text {
+  color: #ecf0f1;
+  line-height: 100%;
+  background-color: #34495e;
+  padding: 4%;
+  border-radius: 5px;
+}
+#search_by_whole_corpus{
+  width: 745px;
+  border-color: #95a5a6;
+}
+#search_button{
+  margin-bottom: 5px;
+}
+.form-inline{
+  margin-bottom: 40px;
+}
+#classification_filter{
+  height: 60px;
+}
+#student_level_filter{
+  height: 60px;
+}
+#format_filter{
+  height: 60px;
 }

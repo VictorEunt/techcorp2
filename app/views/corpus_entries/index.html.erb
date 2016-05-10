@@ -1,49 +1,89 @@
 <div class="container-fluid">  
-  <div id="about_jumbotron" class="jumbotron">
-    <h1 id="about_heading">The Corpus Explorer</h1>
-    <p id="about_text">A university corpus of student documents from the technical communication field.</p>
+  <div id="explore_jumbotron" class="jumbotron">
+    <h1 id="explore_heading">The Corpus Explorer</h1>
+    <p id="explore_text">A university corpus of <%= CorpusEntry.count %> student documents from the technical communication field.</p>
   </div>
   
-  <%= form_tag(corpus_entries_path, :method => "get") do %>
-  <%= text_field_tag :query, params[:search_by_whole_corpus], placeholder: "Search Corpus" %>
-  <%= submit_tag "Search" %>
-  <% end %>
 
-    <div class="row">
-      <% @corpus_entries.each do |corpus_entry| %>
+
+  <div class="row">
+    <div class="col-lg-9 col-lg-offset-3">
+      <%= will_paginate @corpus_entries %>
+      <%= form_tag(corpus_entries_path, :method => "get") do %>
+      <div class="form-inline">
+        <div class="form-group">
+          <%= text_field_tag :query, params[:search_by_whole_corpus], placeholder: "Search Corpus", :class => "form-control", :id => "search_by_whole_corpus" %>
+        </div>
+        <div class="form-group">
+          <%= submit_tag "Search", :class => "btn btn-primary", :id => "search_button" %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="row">
+      <div class="col-lg-3">
+        <div class="panel panel-default">
+        <div class="panel-body">
+          <%= form_for(:student_level, :method => 'get') do |f| %>
+          <h5>Classification</h5>
+            <div class="form-group">
+              <%= select_tag(:query, options_for_select([['Academic', 'Academic'], ['Technical', 'Technical']]), :multiple => true, :class => "form-control", :id => "classification_filter") %>
+            </div>
+          <h5>Student</h5>
+            <div class="form-group">
+              <%= select_tag(:query, options_for_select([['Freshman', 'Freshman'], ['Sophomore', 'Sophomore'], ['Junior', 'Junior'], ['Senior', 'Senior'], ['Graduate', 'Graduate'], ['Doctorate', 'Doctorate']]), :multiple => true, :class => "form-control", :id => "student_level_filter") %>
+            </div>
+          <h5>File</h5>
+            <div class="form-group">
+              <%= select_tag(:query, options_for_select([['DOC', 'DOC'], ['DOCX', 'DOCX'], ['PDF', 'PDF'], ['HTML', 'HTML'], ['PPT', 'PPT'], ['Blog', 'Blog']]), :multiple => true, :class => "form-control", :id => "format_filter") %>
+            </div>
+            <div class="form-group">
+              <%= submit_tag "Go", :class => "btn btn-primary" %>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    
+        <div class="col-lg-9">
+    <% @corpus_entries.each do |corpus_entry| %>
           <div class="panel">
-           <div class="row">
+           <div class="row entry_row_heading">
             <div class="col-xs-12 col-lg-12">
-              <h4><%= corpus_entry.entry_number %>
-              <%= corpus_entry.genre %>
-              <%= corpus_entry.format %></h4>
+              <ul id="entry_heading">
+                <li id="entry_genre"><%= link_to corpus_entry.deliverable, corpus_entry %><span id="entry_format"><%= corpus_entry.course_year %></span></li>              
+              </ul>
             </div>
            </div>
            <div class="row">
-            <div class="col-xs-6 col-lg-4">
-              <h5><%= corpus_entry.deliverable %></h5>
-              <p><%= corpus_entry.classification %></p>
-              <p><%= corpus_entry.deadline %> deadline</p>
-              <p>Grade <%= corpus_entry.grade %></p>
+             <div class="panel-body">
+            <div class="col-xs-6 col-lg-3">
+              <div class="deliverable_group">
+                <p><strong>Genre: </strong><%= corpus_entry.genre %></p>
+              </div>
             </div>
-            <div class="col-xs-6 col-lg-4">
-              <h5><%= corpus_entry.student_level %> student</h5>
-              <p>Major <%= corpus_entry.student_major %></p>
-              <p>Age <%= corpus_entry.student_age %></p>
-              <p>Gender <%= corpus_entry.student_gender %></p>
-              <p>Ethnicity <%= corpus_entry.student_ethnicity %></p>
+            <div class="col-xs-6 col-lg-3">
+              <p><strong>Classification: </strong><%= corpus_entry.classification %></p>
             </div>
-            <div class="col-xs-12 col-lg-4">
-              <h5>Course <%= corpus_entry.course_number %> Section <%= corpus_entry.course_section %></h5>
-              <p>Instructor <%= corpus_entry.instructor %></p>
-              <p><%= corpus_entry.course_day %> <%= corpus_entry.course_time %>, <%= corpus_entry.course_year %></p>
-              <p><%= corpus_entry.id %></p>
+            <div class="col-xs-6 col-lg-3">
+              <p><strong>Student: </strong><%= corpus_entry.student_level %></p>
+            </div>
+            <div class="col-xs-12 col-lg-3">
+              <p><%= link_to corpus_entry.format, corpus_entry.document.url %></p>
             </div> 
            </div>
           </div>
+          </div>
       <% end %>
-    </div> 
-  <%= will_paginate @corpus_entries %>
+    </div>
+  </div> 
+  <div class="row">
+    <div class="col-lg-9 col-lg-offset-3">
+      <%= will_paginate @corpus_entries %>
+    </div>
+  </div>
 </div>
 
                    

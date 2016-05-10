@@ -1,8 +1,20 @@
-<div class="containter">
-  <h1 id="form_title">Upload a Student Document</h1><hr><br/><br/>
+<div class="container-fluid">
+  <div id="form_jumbotron" class="jumbotron"> 
+      <h1 id="form_heading_jumbotron">Share with the Corpus</h1>
+        <p id="form_heading_text">And provide us with some information about the document, the student, and the student's class. Thank you.</p>
+    </div>
+  
   <%= render 'form' %>
+  
   <div class="row">
-    <%= link_to 'Back', corpus_entries_path %>
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-footer">
+          <%= link_to 'Back to the Corpus Explorer', corpus_entries_path %>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+
   

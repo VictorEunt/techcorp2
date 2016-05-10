@@ -1,19 +1,20 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */  
 
-  .jumbotron {
-    background-color: #34495e;
-    margin-top: 50px;
+  #people_jumbotron {
+    background-image: url("class_mobile.png");
+    background-size: cover;
+    margin: none;
 }
   #people_heading {
     color: #ecf0f1;
   }
   #people_text {
     color: #ecf0f1;
-    font-weight: bold;
     line-height: 100%;
     padding: 4%;
     border-radius: 5px;
+    background-color: #34495e;
   }
 
 

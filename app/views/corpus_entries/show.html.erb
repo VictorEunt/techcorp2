@@ -1,101 +1,39 @@
-<p>
-    <strong>Document:</strong>
-  <%= link_to "Document",@corpus_entry.document.url %>
-</p>
-<p>
-  <strong>Entry number:</strong>
-  <%= @corpus_entry.entry_number %>
-</p>
-
-<p>
-  <strong>Genre:</strong>
-  <%= @corpus_entry.genre %>
-</p>
-
-<p>
-  <strong>Deliverable:</strong>
-  <%= @corpus_entry.deliverable %>
-</p>
-
-<p>
-  <strong>Classification:</strong>
-  <%= @corpus_entry.classification %>
-</p>
-
-<p>
-  <strong>Deadline:</strong>
-  <%= @corpus_entry.deadline %>
-</p>
-
-<p>
-  <strong>Format:</strong>
-  <%= @corpus_entry.format %>
-</p>
-
-<p>
-  <strong>Grade:</strong>
-  <%= @corpus_entry.grade %>
-</p>
-
-<p>
-  <strong>Instructor:</strong>
-  <%= @corpus_entry.instructor %>
-</p>
-
-<p>
-  <strong>Student level:</strong>
-  <%= @corpus_entry.student_level %>
-</p>
-
-<p>
-  <strong>Student major:</strong>
-  <%= @corpus_entry.student_major %>
-</p>
-
-<p>
-  <strong>Student gender:</strong>
-  <%= @corpus_entry.student_gender %>
-</p>
-
-<p>
-  <strong>Student age:</strong>
-  <%= @corpus_entry.student_age %>
-</p>
-
-<p>
-  <strong>Student language:</strong>
-  <%= @corpus_entry.student_language %>
-</p>
-
-<p>
-  <strong>Student ethnicity:</strong>
-  <%= @corpus_entry.student_ethnicity %>
-</p>
-
-<p>
-  <strong>Course number:</strong>
-  <%= @corpus_entry.course_number %>
-</p>
-
-<p>
-  <strong>Course section:</strong>
-  <%= @corpus_entry.course_section %>
-</p>
-
-<p>
-  <strong>Course day:</strong>
-  <%= @corpus_entry.course_day %>
-</p>
-
-<p>
-  <strong>Course time:</strong>
-  <%= @corpus_entry.course_time %>
-</p>
-
-<p>
-  <strong>Course year:</strong>
-  <%= @corpus_entry.course_year %>
-</p>
-
-<%= link_to 'Edit', edit_corpus_entry_path(@corpus_entry) %> |
-<%= link_to 'Back', corpus_entries_path %>
+<div class="panel">
+ <div class="row entry_row_heading">
+  <div class="col-xs-12 col-lg-12">
+    <h3 id="show_heading"><%= @corpus_entry.deliverable %></h3>
+  </div>
+ </div>
+<div class="panel-body">
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <h5>Document</h5>
+    <p><strong>Classification: </strong><%= @corpus_entry.classification %></p>
+    <p><strong>Genre: </strong><%= @corpus_entry.genre %></p>
+    <p><strong>Deadline: </strong><%= @corpus_entry.deadline %> deadline</p>
+    <p><strong>Grade: </strong><%= @corpus_entry.grade %></p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <h5>Student</h5>
+    <p><strong>Level: </strong><%= @corpus_entry.student_level %></p>
+    <p><strong>Major: </strong><%= @corpus_entry.student_major %></p>
+    <p><strong>Age: </strong><%= @corpus_entry.student_age %></p>
+    <p><strong>Gender: </strong><%= @corpus_entry.student_gender %></p>
+    <p><strong>Ethnicity: </strong><%= @corpus_entry.student_ethnicity %></p>
+  </div>
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <h5>Class</h5>
+    <p><strong>Course: </strong><%= @corpus_entry.course_number %></p>
+    <p><strong>Section: </strong><%= @corpus_entry.course_section %></p>
+    <p><strong>Instructor: </strong><%= @corpus_entry.instructor %></p>
+    <p><strong>Day: </strong><%= @corpus_entry.course_day %> at <%= @corpus_entry.course_time %></p>
+    <p><strong>Year: </strong><%= @corpus_entry.course_year %></p>
+  </div> 
+  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+    <h5>File</h5>
+      <p><%= link_to @corpus_entry.format, @corpus_entry.document.url %></p>
+  </div>            
+</div>
+  <div class="panel-footer">
+    <%= link_to 'Back to the Corpus', corpus_explorer_path %>
+  </div>
+</div>

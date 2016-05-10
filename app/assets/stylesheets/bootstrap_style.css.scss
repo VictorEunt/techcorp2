@@ -3,23 +3,37 @@
 
 $font-family-sans-serif: 'Lato', sans-serif;
 $font-family-base: $font-family-sans-serif;
-$navbar-height: 50px;
-$navbar-default-bg: #fff;
-$navbar-default-link-color: #2980b9;
-$navbar-default-link-hover-color: #f1c40f;
-$navbar-default-brand-color: #34495e;
-$navbar-default-brand-hover-color: #7f8c8d;
-$navbar-default-toggle-border-color: #fff;
-$navbar-default-toggle-hover-bg: #fff;
-$body-bg: #ecf0f1;
-$input-bg: #ecf0f1;
-$input-border-focus: #737373;
 $font-size-base: 16px;
 $text-color: #333333;
 $headings-font-family: 'Khula', sans-serif;
 $headings-font-weight: 800;
 $headings-color: #2980b9;
+
+$navbar-height: 50px;
+$navbar-default-bg: #fff;
+$navbar-default-link-color: #2980b9;
+$navbar-default-link-hover-color: #e67e22;
+$navbar-default-link-active-color: #e67e22;
+$navbar-default-link-active-bg: #fff;
+$navbar-default-brand-color: #34495e;
+$navbar-default-brand-hover-color: #e67e22;
+$navbar-default-brand-hover-bg: none;
+$navbar-default-toggle-border-color: #fff;
+$navbar-default-toggle-hover-bg: #fff;
+
+$body-bg: #ecf0f1;
+
+$input-bg: #ecf0f1;
+$input-color: #333333;
+$input-border-focus: #95a5a6;
+$input-color-placeholder: #bdc3c7;
 $form-group-margin-bottom: 50px;
+
+$panel-bg: #f9f9f9;
+$panel-default-heading-bg: #f1f2f3;
+$panel-inner-border: #f1f2f3;
+$panel-default-border: #f1f2f3;
+
 $hr-border: #4B4B4B;
 $btn-primary-bg: #2980b9;
 $btn-primary-color: #ecf0f1;
@@ -31,13 +45,14 @@ $btn-default-bg: #f9f9f9;
 $btn-default-color: #262626;
 $btn-default-border: #f9f9f9;
 
+$label-default-bg: #2980b9;
+
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 body { 
-  padding-top: 50px;
 }
 .navbar-toggle {
   display: block;
@@ -82,7 +97,55 @@ body {
   font-weight: normal;
   font-weight: bold;
 }
+  .jumbotron {
+    margin: none;
+  }
+  #session_jumbotron {
+    background-image: url("class_mobile.png");
+    background-size: cover;
+    margin: none;
+  } 
+ 
+  #session_heading  {
+    color: #ecf0f1;
+    margin-bottom: 4%;
+  }
+  #session_heading small {
+  color: #ecf0f1;
+  }
+  #form_jumbotron {
+    background-image: url("class_mobile.png");
+    background-size: cover;
+    margin: none;
+  }
+  #form_heading_jumbotron  {
+    color: #ecf0f1;
+  }
+  #form_heading_text {
+    color: #ecf0f1;
+    line-height: 100%;
+    background-color: #34495e;
+    padding: 4%;
+    border-radius: 5px;
+  }
 
+.form_heading {
+  margin-bottom: -40px;
+  color: #ecf0f1;
+}
+.shared_links a {
+  color: #f1c40f;
+}
+.shared_links a:hover {
+  color: #ecf0f1;
+}
+.form_message {
+  color: #ecf0f1;
+}
+.form_remember {
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .navbar-toggle {
@@ -107,6 +170,13 @@ body {
   li.navbar-link {
     width: 110px;
   }
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset;
+    -webkit-text-fill-color: #2c3e50 !important;
+}
+input:-webkit-autofill:focus{
+    -webkit-box-shadow: 0 0 0px 1000px #fae4d1 inset;
 }
 
 
