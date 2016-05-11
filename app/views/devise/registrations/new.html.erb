@@ -1,33 +1,36 @@
 <div class="container-fluid">
   <div id="session_jumbotron" class="jumbotron">
     <h1 id="session_heading">Sign up <small>to become a member and share your documents.</small></h1>
-    
-    <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-    <div class="form_message"><%= devise_error_messages! %></div>
-    
-      <div class="form-group form-group-lg">
-        <h4 class="form_heading"><%= f.label :email %></h4><br />
-        <%= f.email_field :email, autofocus: true, class: "form-control" %>
-      </div>
+      <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+          <div class="form_message"><%= devise_error_messages! %></div>
 
-      <div class="form-group form-group-lg">
-        <h4 class="form_heading"><%= f.label :password %></h4><br />
-        <% if @minimum_password_length %>
-        <em class="form_message">(<%= @minimum_password_length %> characters minimum)</em>
-        <% end %><br />
-        <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
-      </div>
+            <div class="form-group form-group-lg">
+              <h4 class="form_heading"><%= f.label :email %></h4><br />
+              <%= f.email_field :email, autofocus: true, class: "form-control" %>
+            </div>
 
-    <% if devise_mapping.rememberable? -%>
-      <div class="form-group form_remember">
-        <%= f.check_box :remember_me, class: "checkbox-inline" %>
-        <%= f.label :remember_me, class: "label label-default" %>
-      <% end -%>
+            <div class="form-group form-group-lg">
+              <h4 class="form_heading"><%= f.label :password %></h4>
+              <% if @minimum_password_length %>
+              <em id="password_msg" class="form_message">(<%= @minimum_password_length %> characters minimum)</em>
+              <% end %><br />
+              <%= f.password_field :password, autocomplete: "off", class: "form-control" %>
+            </div>
+
+          <% if devise_mapping.rememberable? -%>
+            <div class="form-group form_remember">
+              <%= f.check_box :remember_me, class: "checkbox-inline" %>
+              <%= f.label :remember_me, class: "label label-default" %>
+            <% end -%>
+            </div>
+            <div class="form-group">
+              <%= f.submit "Sign up", class: "btn btn-info btn-lg" %>
+            </div>
+          <% end %>
+          <h5 class="shared_links"><%= render "devise/shared/links" %></h5>
       </div>
-      <div class="form-group">
-        <%= f.submit "Sign up", class: "btn btn-info btn-lg" %>
-      </div>
-    <% end %>
-    <h5 class="shared_links"><%= render "devise/shared/links" %></h5>
+    </div>
   </div>
 </div>

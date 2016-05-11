@@ -179,6 +179,27 @@ input:-webkit-autofill:focus{
     -webkit-box-shadow: 0 0 0px 1000px #fae4d1 inset;
 }
 
+#footer_copy {
+ color: #bdc3c7;
+ font-style: normal;
+ text-align: center;
+ margin-top: -4px;
+}
+#signature {
+ color: #8ca6c0;
+ font-style: normal;
+ text-align: center;
+ margin-top: 10px;
+}
+
+#footer_layout{
+	position: relative;
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	background: #fff;
+  margin-top: 15%;
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {

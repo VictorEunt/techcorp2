@@ -3,24 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-#form_heading_document {
-  margin-left: 12px;
-}
-
-
 #form_label{
   color: #4B4B4B;
 }
-
 
 .form-control {
     border-color: none;
     border-width: 2px;
 }
 
-#btn_margin {
-  margin-left: 30px;
-}
 #entry_heading ul li {
   display: inline;
   list-style-type: none;
@@ -29,17 +20,17 @@
   list-style-type: none;
   font-size: 20px;
 }
-.entry_row_heading {
+#entry_row_heading {
   border-bottom: solid #6b8cae 1px;
   padding-top: 1%;
   margin: -5px 0px 5px 0px;
 }
 
-#entry_genre {
-  margin-left: -5%;
+#entry_link {
+  margin-left: -40px;
   color: #2980b9;
 }
-#entry_format {
+#entry_year {
   float: right;
   color: #333333;
 }
@@ -59,11 +50,12 @@
   border-radius: 5px;
 }
 #search_by_whole_corpus{
-  width: 745px;
   border-color: #95a5a6;
+  background-color: #f9f9f9;
+  margin-bottom: -50px;
 }
 #search_button{
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .form-inline{
   margin-bottom: 40px;
@@ -76,4 +68,61 @@
 }
 #format_filter{
   height: 60px;
+}
+#password_msg{
+  float:right;
+  font-size: 18px;
+}
+#filter_panel{
+  display: none;
+}
+#show_heading {
+  margin-left: 20px;
+  color: #333333;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #search_by_whole_corpus{
+    width: 610px;
+    margin-bottom: 0px;
+  }
+  #search_button{
+    margin-bottom: 5px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #filter_panel{
+  display: block;
+  }
+  #search_by_whole_corpus{
+    width: 590px;
+  }
+  #entry_row_heading {
+    border-bottom: solid #6b8cae 1px;
+    padding-top: 1%;
+    margin: -5px 0px 5px 0px;
+  }
+
+  #entry_link{
+    margin-left: -5%;
+    color: #2980b9;
+  }
+  #entry_year {
+    float: right;
+    color: #333333;
+  }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #search_by_whole_corpus{
+    width: 745px;
+  }
+  #search_button{
+    margin-bottom: 5px;
+  }
 }
