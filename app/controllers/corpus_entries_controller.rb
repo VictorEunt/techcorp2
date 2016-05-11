@@ -8,7 +8,6 @@ class CorpusEntriesController < ApplicationController
     if params[:query]
       @corpus_entries = CorpusEntry.search_by_whole_corpus(params[:query]).page(params[:page])
     else
-      flash[:notice] = "No result found"
     end
   end
   
