@@ -146,31 +146,6 @@ body {
   margin-top: -40px;
   margin-bottom: 20px;
 }
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .navbar-toggle {
-    display: none;
-  }
-  .navbar-brand {
-    display: block;
-    position: absolute;
-    font-family: 'Khula', sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    left: 10%;
-    width: auto;
-    height: 100%;
-    margin-left: -68px !important;  /* 44px 50% of your logo width */
-    margin-top: 5px;
-  }
- ul.navbar-right {
-    margin-top: 4px;
-    padding-right: 25px;
-  }
-  li.navbar-link {
-    width: 110px;
-  }
-}
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px #ecf0f1 inset;
     -webkit-text-fill-color: #2c3e50 !important;
@@ -200,15 +175,44 @@ input:-webkit-autofill:focus{
 	background: #fff;
   margin-top: 15%;
 }
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-toggle {
+    display: none;
+  }
+  .navbar-brand {
+    display: block;
+    position: absolute;
+    font-family: 'Khula', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    left: 10%;
+    width: auto;
+    height: 100%;
+    margin-left: -68px !important;  /* 44px 50% of your logo width */
+    margin-top: 5px;
+  }
+ ul.navbar-right {
+    margin-top: 4px;
+    padding-right: 25px;
+  }
+  li.navbar-link {
+    width: 110px;
+  }
+}
+
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
+#footer_layout{
+  margin-top: 200px;
+}
 }
 
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+#footer_layout{
+}
 }
 

@@ -22,7 +22,7 @@
 }
 #entry_row_heading {
   border-bottom: solid #6b8cae 1px;
-  padding-top: 1%;
+  padding-top: 3%;
   margin: -5px 0px 5px 0px;
 }
 
@@ -58,23 +58,29 @@
   margin-bottom: 0px;
 }
 .form-inline{
-  margin-bottom: 40px;
+  margin-bottom: 35px;
+}
+#genre_filter{
+  height: 35px;
+  margin-bottom: -25px;
 }
 #classification_filter{
-  height: 60px;
+  height: 35px;
+  margin-bottom: -25px;
 }
 #student_level_filter{
-  height: 60px;
+  height: 35px;
+  margin-bottom: -25px;
 }
 #format_filter{
-  height: 60px;
+  height: 35px;
+  margin-bottom: -25px;
 }
 #password_msg{
   float:right;
   font-size: 18px;
 }
 #filter_panel{
-  display: none;
 }
 #show_heading {
   margin-left: 20px;
@@ -95,7 +101,18 @@
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #filter_panel{
-  display: block;
+  }
+  #genre_filter{
+    height: 60px;
+  }
+  #classification_filter{
+    height: 60px;
+  }
+  #student_level_filter{
+    height: 60px;
+  }
+  #format_filter{
+    height: 60px;
   }
   #search_by_whole_corpus{
     width: 590px;

@@ -10,9 +10,7 @@ class CorpusEntriesController < ApplicationController
     else
     end
   end
-  
 
-  
 
   def show
     @corpus_entries = CorpusEntry.paginate(:page => params[:page], :per_page => 15).order('genre DESC')

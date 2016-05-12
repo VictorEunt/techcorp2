@@ -25,6 +25,10 @@
         <div id="filter_panel" class="panel panel-default">
         <div class="panel-body">
           <%= form_for(:student_level, :method => 'get') do |f| %>
+          <h5>Genre</h5>
+            <div class="form-group">
+              <%= select_tag(:query, options_for_select([['Brochure', 'Brochure'], ['Case study', 'Case study'], ['Composition', 'Composition'], ['Correspondence', 'Correspondence'], ['ePortfolio', 'ePortfolio'], ['Essay', 'Essay'], ['Job Materials', 'Job Materials'], ['Presentation', 'Presentation'], ['Procedures', 'Procedures'], ['Proposal', 'Proposal'], ['Report', 'Report']]), :multiple => true, :class => "form-control", :id => "genre_filter") %>
+            </div>
           <h5>Classification</h5>
             <div class="form-group">
               <%= select_tag(:query, options_for_select([['Academic', 'Academic'], ['Technical', 'Technical']]), :multiple => true, :class => "form-control", :id => "classification_filter") %>
@@ -45,7 +49,7 @@
       </div>
     </div>
     
-        <div class="col-md-9 col-lg-9">
+        <div class="col-sm-12 col-md-9 col-lg-9">
         <% @corpus_entries.each do |corpus_entry| %>
           <div class="panel">
            <div id="entry_row_heading" class="row">

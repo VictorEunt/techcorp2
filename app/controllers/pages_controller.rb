@@ -1,9 +1,6 @@
 class PagesController < ApplicationController
   def home
   end
- 
-  def corpus_explorer
-  end
   
   def about
   end
@@ -16,7 +13,5 @@ class PagesController < ApplicationController
   
   def corpus
   end
-  
-  def tei
-  end
+
 end
