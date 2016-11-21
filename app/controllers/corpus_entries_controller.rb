@@ -5,8 +5,16 @@ class CorpusEntriesController < ApplicationController
   respond_to :html
   def index
     @corpus_entries = CorpusEntry.all.page(params[:page]).order('id DESC')
-    if params[:query]
-      @corpus_entries = CorpusEntry.search_by_whole_corpus(params[:query]).page(params[:page])
+    if params[:search_by_document_title]
+      @corpus_entries = CorpusEntry.search_by_document_title(params[:search_by_document_title]).page(params[:page])
+    elsif params[:search_by_genre]
+      @corpus_entries = CorpusEntry.search_by_genre(params[:search_by_genre]).page(params[:page])
+    elsif params[:search_by_classification]
+      @corpus_entries = CorpusEntry.search_by_classification(params[:search_by_classification]).page(params[:page])
+    elsif params[:search_by_student_level]
+      @corpus_entries = CorpusEntry.search_by_student_level(params[:search_by_student_level]).page(params[:page])
+    elsif params[:search_by_format]
+      @corpus_entries = CorpusEntry.search_by_format(params[:search_by_format]).page(params[:page])
     else
     end
   end
@@ -51,7 +59,7 @@ class CorpusEntriesController < ApplicationController
     end
 
     def corpus_entry_params
-      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year, :document, :search_by_whole_corpus, :search_by_student_level)
+      params.require(:corpus_entry).permit(:entry_number, :genre, :deliverable, :classification, :deadline, :format, :grade, :instructor, :student_level, :student_major, :student_gender, :student_age, :student_language, :student_ethnicity, :course_number, :course_section, :course_day, :course_time, :course_year, :document, :document_title, :search_by_document_title, :search_by_genre, :search_by_classification, :search_by_student_level, :search_by_format)
     end
     
 end

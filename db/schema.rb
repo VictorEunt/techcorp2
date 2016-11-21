@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151020044940) do
+ActiveRecord::Schema.define(version: 20161121022914) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20151020044940) do
     t.string   "document_content_type"
     t.integer  "document_file_size"
     t.datetime "document_updated_at"
+    t.string   "document_title"
   end
 
   add_index "corpus_entries", ["member_id"], name: "index_corpus_entries_on_member_id", using: :btree
