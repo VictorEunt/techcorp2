@@ -6,7 +6,9 @@
 
   <div class="row">
     <div class="col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
-      <%= will_paginate @corpus_entries %>
+      <div class="pagination">
+      <%= will_paginate @corpus_entries, renderer: BootstrapPagination::Rails %>
+      </div>
       <%= form_tag(corpus_entries_path, :method => "get") do %>
       <div class="form-inline">
         <div class="form-group">
@@ -98,7 +100,9 @@
   </div> 
   <div class="row">
     <div class="col-md-9 col-md-offset-3 col-lg-9 col-lg-offset-3">
-      <%= will_paginate @corpus_entries %>
+      <div class="pagination">
+      <%= will_paginate @corpus_entries, renderer: BootstrapPagination::Rails %>
+      </div>
     </div>
   </div>
 </div>

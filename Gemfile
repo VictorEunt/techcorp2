@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.1.8'
@@ -16,6 +16,7 @@ gem 'aws-sdk', '< 2.0'
 gem 'http'
 gem 'puma'
 gem 'will_paginate', '~> 3.0.6'
+gem 'will_paginate-bootstrap'
 gem 'pg_search'
 
 
